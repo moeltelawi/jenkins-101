@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'localjenkins'
+            label 'docker-agent'
             }
       }
     triggers {
